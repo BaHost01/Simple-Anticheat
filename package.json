@@ -1,0 +1,23 @@
+{
+  "name": "1.0.1 Package",
+  "version": "1.0.1",
+  "description": "New Version Package",
+  "main": "MainSourceCode.py",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BaHost01/Simple-Anticheat"
+  },
+  "keywords": [
+    "Novo",
+    "pacote"
+  ],
+  "author": "cleasantos1994",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BaHost01/Simple-Anticheat/issues"
+  },
+  "homepage": "https://github.com/BaHost01/Simple-Anticheat/blob/main/README.md"
+}
