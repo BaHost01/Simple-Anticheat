@@ -6,6 +6,7 @@ Version	Supported
 1.2.x	:x:
 1.1.x	:clipboard:
 1.0.x	:green_check_mark:
+
 Reporting a Vulnerability
 Para relatar uma vulnerabilidade, siga as etapas abaixo:
 
