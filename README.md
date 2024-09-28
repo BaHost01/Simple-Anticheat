@@ -16,3 +16,9 @@ Este é o novo Anti-Cheat reestruturado com melhorias significativas em seguran�
 git clone https://github.com/seuusuario/anticheat-python-rework.git
 cd anticheat-python-rework
 pip install -r requirements.txt
+````
+Reporting Cheats
+Caso você encontre trapaças não detectadas pelo sistema, envie um email para cleasantos1994@gmail.com ou agente0981 no discord
+
+Contribuições
+Contribuições são bem-vindas. Abra um pull request no GitHub.
