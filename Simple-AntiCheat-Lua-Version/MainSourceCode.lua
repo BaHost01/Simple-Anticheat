@@ -1,6 +1,7 @@
 local socket = require("socket.http")  -- Biblioteca para requisições HTTP
 local md5 = require("md5")             -- Biblioteca para hash MD5
 local lfs = require("lfs")             -- Manipulação de arquivos
+local socket_sleep = require("socket").sleep  -- Função sleep alternativa
 
 -- Cheats conhecidos e exploits focados no Roblox
 local cheats_conhecidos = {
@@ -68,7 +69,7 @@ local function verificar_integridade_arquivos_roblox()
                 log_activity("Tentativa de modificação no arquivo Roblox detectada: " .. file_path)
                 report_cheater("Arquivo modificado: " .. file_path)
             end
-            os.execute("sleep 10")
+            socket_sleep(10)  -- Pausa de 10 segundos entre as verificações
         end
     end
 end
@@ -104,7 +105,7 @@ local function verificar_integridade_anticheat()
             log_activity("Tentativa de alteração do Anti-Cheat detectada!")
             report_cheater("Tentativa de modificação no sistema Anti-Cheat")
         end
-        os.execute("sleep 10")
+        socket_sleep(10)  -- Pausa de 10 segundos entre as verificações
     end
 end
 
