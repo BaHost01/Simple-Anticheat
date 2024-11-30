@@ -1,32 +1,47 @@
-# Anti-Cheat Lua - Rework Completo
+Update Log: Anti-Cheat Lua - Complete Rework
+This update introduces a restructured Anti-Cheat system in Lua, with enhanced security and detection capabilities. The rework focuses on robust monitoring, integrity verification, and seamless compatibility with Roblox games.
 
-Este é o novo Anti-Cheat reestruturado em **Lua**, com melhorias significativas em segurança e detecção. O sistema agora conta com monitoramento de processos e hooks críticos, detecção de injeção de código, e proteção contra modificação do próprio Anti-Cheat.
+Key Features
+Critical Process and Hook Monitoring
 
-## Funcionalidades
+Actively scans running processes to identify and respond to attempts at cheating or manipulating critical system functions.
+Code Injection Detection
 
-- **Monitoramento de processos e hooks críticos**: Verifica constantemente os processos em execução para detectar tentativas de trapaça e manipulação de funções críticas do sistema.
-- **Detecção de injeção de código**: O Anti-Cheat monitora scripts e executáveis para evitar injeções maliciosas.
-- **Proteção do Anti-Cheat**: Verifica a integridade do próprio Anti-Cheat, protegendo contra tentativas de modificação.
-- **Relatórios automáticos**: Envia relatórios automaticamente para um servidor remoto em caso de detecção de cheats.
-- **Suporte para Jogos do Roblox**: Inclui verificações de trapaça adaptadas para jogos dentro da plataforma Roblox.
+Monitors scripts and executables to detect and block malicious code injections effectively.
+Self-Protection
 
-## Instalação
+Validates the integrity of the Anti-Cheat system, preventing modifications or tampering attempts.
+Automated Reporting
 
-1. Baixe ou clone o repositório:
-    ```bash
-    git clone https://github.com/seuusuario/anticheat-lua-rework.git
-    cd anticheat-lua-rework
-    ```
+Automatically submits reports to a remote server upon detecting cheats, ensuring timely responses to suspicious activities.
+Roblox Platform Support
 
-2. Execute o script Lua:
-    ```bash
-    lua anticheat.lua
-    ```
+Designed with Roblox games in mind, featuring checks and measures specifically tailored to the platform's unique environment.
+Installation
+Clone the Repository
+Download or clone the repository to your local system:
 
-## Relatando Trapaças
+bash
+Copiar código
+git clone https://github.com/yourusername/anticheat-lua-rework.git  
+cd anticheat-lua-rework  
+Run the Lua Script
+Execute the Anti-Cheat script with:
 
-Caso você encontre trapaças não detectadas pelo sistema, envie um email para [cleasantos1994@gmail.com](mailto:cleasantos1994@gmail.com) ou entre em contato via Discord: `agente0981`.
+bash
+Copiar código
+lua anticheat.lua  
+Reporting Undetected Cheating
+If you encounter cheating methods not detected by this Anti-Cheat, please reach out with details:
 
-## Contribuições
+Email: cleasantos1994@gmail.com
+Discord: agent0981
+Contributions
+We welcome contributions to enhance the Anti-Cheat system!
 
-Contribuições são bem-vindas. Abra um pull request no GitHub para propor suas melhorias ou correções.
+Submit your suggestions or fixes through a pull request on GitHub.
+Ensure your proposed changes align with the project's goals and coding standards.
+
+
+
+--Make sure leave credits for cleasantos1994 In Roblox :D 
