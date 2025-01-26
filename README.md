@@ -1,18 +1,10 @@
-#How to Use the Script
+#How to Use The Scripts
 
-#Choose the Script Type
-#First, decide on the script type you want to use. In this example, we'll be using #Lua.
+#First Install Your Desired Lua Type (Roblox Lua, Or Normal Lua)
 
-#Download the Source Code
-#Download the source code for your chosen script.
+#For The Roblox Lua Put The RBXM In Your Game   Setup As The Files Names, For Edit The Anticheat Use "AntiModule"
 
-#Navigate to the Script Folder
-#Go to the folder for your chosen script type (e.g., the Lua folder for Lua scripts).
+#For Normal Games using Lua just get everything inside "GameSetup" Folder an Put in Your Game main Files.
 
-#Locate the Source Code
-#Find the source code file, then open it.
 
-#Copy and Paste the Code
-#Copy the source code from the file and paste it into the appropriate location where you'll be using it.
-
-##--Example: For Lua, paste the code into Roblox Studio.
+" -- The Code Is Currently Being Remaked! -- #
