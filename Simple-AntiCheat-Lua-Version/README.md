@@ -32,6 +32,13 @@ bash
 Copiar código
 lua anticheat.lua  
 Reporting Undetected Cheating
+
+
+or if You want something simple you can do directly from your game without dowloading Anything just use this:
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/BaHost01/Simple-Anticheat/refs/heads/main/Simple-AntiCheat-Lua-Version/MainSourceCode.lua",true))()
+Make Sure Its Server Script
+
 If you encounter cheating methods not detected by this Anti-Cheat, please reach out with details:
 
 Email: cleasantos1994@gmail.com
